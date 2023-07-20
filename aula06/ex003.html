@@ -18,9 +18,16 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei dessa maldição!</p>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?') // Janela com o botão Ok e Cancelar
-        window.prompt('Qual é seu nome?') // Vai perguntar o nome
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + String(s))
+        // + para adição
+        // + para concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+
     </script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+Data Types
+
+number:
+    Infinity;
+    NaN (Not a Number);
+string
+boolean
+null
+undefined
+object:
+    Array;
+function
