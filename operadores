@@ -1,0 +1,51 @@
+Operadores 
+
+Aritméticos:
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5 -> Divisão real
+5 % 2 = 1 -> Resto inteiro da divisão
+5 ** 2 -> 25
+
+atribuição
+
+relacionais:
+5 > 2 = true
+7 < 4 = false
+8 >= 8 = true
+9<= 7 = false
+5 == 5 = true
+4 != 4 = false
+
+=== idêntico
+!== desigual restrito
+
+lógicos:
+! negação
+!true -> false
+!false -> true
+
+&& conjunção (e)
+true && true -> true
+true && false -> false
+false && true -> false
+false && false -> false
+
+|| disjunção (ou)
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+ternários:
+? :
+teste ? true : false
+média >= 7.0 ? 'Aprovado!':'Reprovado!'
+
+Ordem de precedência
+() ** / ...
+> < >= ...
+!
+&&
+||
