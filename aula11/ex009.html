@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturalidade</title>
+</head>
+<body>
+    <h1>Naturalidade</h1>
+    Qual é o seu país? <input type="text" name="paistxt" id="paistxt">
+    <input type="button" value="Enviar" onclick="enviar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function enviar() {
+            var país = document.querySelector('input#paistxt')
+            var res = document.querySelector('div#res')
+            if (país === 'Brasil') {
+                res.innerHTML = '<p>Você é <strong>Brasileiro!</strong></p>'
+            } else {
+                res.innerHTML = '<p>Você é <strong>estrangeiro!</strong></p>'
+            }
+        }
+    </script>
+</body>
+</html>
